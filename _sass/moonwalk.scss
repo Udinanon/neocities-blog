@@ -32,7 +32,7 @@ p { margin: 1em 0; }
 li { margin: 0.4em 0; }
 
 .w {
-  max-width: 720px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 4em 2em;
 }
@@ -79,14 +79,14 @@ img {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #74c0fc;
-      --links: #91A7FF;
-      --highlight: #41C7C7;
-      --bg: #1f242A;
-      --bg-secondary: #323945;
+      --headings: #F3EEE5;
+      --links: #f5b877;
+      --highlight: #e4a022;
+      --bg: #060707;
+      --bg-secondary: #1f232a;
       --text: #adb5bd;
       --text-secondary: #9CA3AF;
-      --code-text: #91A7FF;
+      --code-text: #b89745;
       --share-text: #C4C4C4;
   };
 }
@@ -221,3 +221,7 @@ p code, li code {
   text-transform: lowercase;
   //border: 1px solid var(--text-secondary);
 }
+
+li, ul, code, p {
+  line-height: 1.6;
+} 
