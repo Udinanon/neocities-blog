@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "moonwalk"
-  spec.version       = "0.1.3"
-  spec.authors       = ["Abhinav Saxena"]
+  spec.version       = "0.1.3.2"
+  spec.authors       = ["Abhinav Saxena", "me"]
   spec.email         = ["abhinav061@gmail.com"]
 
-  spec.summary       = "A fast and minimalist Jekyll theme with clean dark mode."
+  spec.summary       = "A fast and minimalist Jekyll theme with clean dark mode. Now using a different SEO tag thing"
   spec.homepage      = "https://github.com/abhinavs/moonwalk"
   spec.license       = "MIT"
 
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", "~> 4.2.0"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15.0"
-  spec.add_runtime_dependency "jekyll-soopr-seo-tag", "~> 2.7.3"
+  spec.add_runtime_dependency "jekyll-seo-tag", ">= 2.0"
   spec.add_runtime_dependency "rouge", "~> 3.23.0"
   spec.add_runtime_dependency "webrick", "~> 1.7"
 end
