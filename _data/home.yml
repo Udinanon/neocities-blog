@@ -5,28 +5,18 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-    highlight: WOP
+  - title: VR Spherical Harmonics
+    url: spherical-harmonics-lovr
+    desc: Spherical harmonics visualized and composed in VR, to reconstruct simple 3D Surfaces
 
-old_project_entries:
+#old_project_entries:
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
 
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: mastodon
-    url: 
+#  - title: mastodon
+#    url: 
 
   - title: github
     url: https://github.com/Udinanon
