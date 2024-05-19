@@ -1,6 +1,6 @@
 title: Martino's Shelf
 author: Martino Trapanotto
-url: martinosheld.neocities.org # root address of the site
+url: martinoshelf.neocities.org # root address of the site
 description: > # description of the site (multiple lines allowed)
   A repository of ideas, projects and experiments.
 
@@ -8,11 +8,10 @@ permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
-theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-#remote_theme: abhinavs/moonwalk
+theme: moonwalk 
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance: "auto" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
   back_home_text: "home.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
