@@ -9,7 +9,9 @@ project_entries:
   - title: VR Spherical Harmonics
     url: spherical-harmonics-lovr
     desc: Spherical harmonics visualized and composed in VR, to reconstruct simple 3D Surfaces
-
+  - title: Motion Amplification
+    url: posy-motion-part1
+    desc: Simple motion amplification, using Python and FFmpeg
 #old_project_entries:
 
 
